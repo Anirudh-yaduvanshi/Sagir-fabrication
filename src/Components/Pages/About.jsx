@@ -12,7 +12,7 @@ const About = () => {
     let mm = gsap.matchMedia();
 
     mm.add("(max-width: 768px)", () => {
-      // Animation for screens 600px or smaller
+      // Animation for screens 600px or smaller phone hai
       gsap.from(".about", {
         scale: 0.2,
         opacity: 0.2,
@@ -50,26 +50,18 @@ const About = () => {
           x: 300,
           opacity: 0.2,
           duration: 1,
-          scrollTrigger: {
-            scroller: "body",
-            trigger: ".youm",
-            start: "top 95%",
-          },
+         
         });
         gsap.from(".map", {
           opacity: 0.2,
           duration: 1,
           scale: 0.3,
-          scrollTrigger: {
-            scroller: "body",
-            trigger: ".youm",
-            start: "top 95%",
-          },
+          
         });
     });
 
     mm.add("(min-width: 769px)", () => {
-      // Animation for screens larger than 600px
+      // Animation for screens larger than 600px display
       gsap.from(".about", {
         scale: 0.2,
         opacity: 0.2,
