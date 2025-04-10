@@ -196,7 +196,7 @@ const About = () => {
                 <p className="md:text-4xl text-2xl w-full text-center font-bold sagir underline text-shadow-lg">
                   Mr. Sagir Ansari and Sons
                 </p>
-                <p className="md:text-2xl md:font-medium text-left sons w-full">
+                <p className="md:text-2xl md:font-medium overflow-y-hidden text-left text-wrap sons w-full">
                   <br />
                   <b>Sagir Fabrication</b> is a family-owned business founded by{" "}
                   <b>Mr. Sagir Ansari</b>. With a legacy of craftsmanship, the
@@ -233,7 +233,7 @@ const About = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
         <a href="https://www.google.com/maps?ll=29.917474,78.103448&z=14&t=m&hl=en&gl=IN&mapclient=embed&cid=1972800704440552532">{" "}
-        <address className="text-white text-center w-full hover:text-blue-600">
+        <address className="text-white text-center w-full hover:text-blue-600 px-2">
        next to Shiv Dairy and confectionery,  Sabji Mandi road, near Jatwara Bridge, Sitapur, Jwlapur, Haridwar,
           Uttrakhand-249407{" "}
         </address></a>
