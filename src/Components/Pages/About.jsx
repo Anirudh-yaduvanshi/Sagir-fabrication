@@ -190,8 +190,8 @@ const About = () => {
       </div>
 
       <div className="w-full owner bg-gray-800">
-        <div className="w-full text-5xl h-1/6 underline ownership text-white font-semibold flex justify-center items-center">
-          Ownership
+        <div className="w-full text-5xl h-1/6  ownership text-white font-semibold flex justify-center items-center">
+          Ownership 
         </div>
         <div className="h-5/6 w-full flex justify-center">
           <div className="grid md:grid-cols-12 gap-4 w-4/5 md:h-11/12 h-full">
