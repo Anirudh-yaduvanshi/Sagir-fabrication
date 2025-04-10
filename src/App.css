@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    scroll-behavior: smooth;
+        /* Removes the focus ring */
+        -webkit-tap-highlight-color: transparent;
+}
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    box-sizing: border-box  ;
+}
+
+.active{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.expand {
+    width: 45%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40vh;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    background: #737373;
+    color: #fff;
+    padding: 10px 10px;
+    border-bottom-left-radius: 15px;
+    transform: translate(50%, 0);
+}
+
+.hife {
+
+    transition: display 1s ease-in-out;
+    display: none;
+}
+
+.ghar{
+background-image: url(/welder.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+width: 100vw;
+background-color: #333;
+@media screen and (min-width: 768px) {
+        background-attachment:fixed ;
+        
+    }
+    
+    @media screen and (max-width: 768px) {
+            background-attachment:scroll ;
+    
+        }
+}
+
+.part1 img{
+    height:100%;
+
+}
+
+.part1 img:hover{
+box-shadow: -10px 10px 12px rgba(194, 194, 194, 0.5);
+transition: all 0.3s ease-in-out;
+cursor: pointer;
+border-radius: 20px;
+background:#ffffff33;
+}
+
+.about-written{
+
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+        height: 100vh;
+        
+    }
+    
+    @media screen and (max-width: 768px) {
+            height: 110vh;
+            
+    
+        }
+}
+
+.about {
+    padding: 10px;
+    
+@media screen and (min-width: 768px) {
+    margin-bottom: 50px;
+    
+}
+@media screen and (max-width: 768px) {
+    margin-bottom: 20px;
+}
+}
+
+.ABOUT{
+        background-image: url(/welder2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        @media screen and (min-width: 768px) {
+                background-attachment: fixed;
+        
+            }
+        
+            @media screen and (max-width: 768px) {
+                background-attachment: scroll;
+        
+            }
+            
+}
+
+/* .family{
+    background-image: url(/family.png); background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+} */
+
+.owner{
+    @media screen and (min-width: 768px) {
+            height: 100vh;
+    
+        }
+    
+        @media screen and (max-width: 768px) {
+            height: 110vh;
+    
+    
+        }
+
+
+}
+
+.contact{
+    @media screen and (min-width: 768px) {
+            height: 100vh;
+    
+        }
+   
+    
+        @media screen and (max-width: 768px) {
+            height: 75vh;
+    
+    
+        }
+}
+
+.photogallery {
+    width: 98%;
+    display: block;
+    height: 100%;
+
+&:hover {
+        z-index: 10;
+        transform: scale(1.05);
+        overflow: hidden;
+        transition: transform 0.5s ease-in-out;
+transition-delay: 1s !important;    }
+}
