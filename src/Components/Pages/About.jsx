@@ -242,7 +242,7 @@ const About = () => {
         ></iframe>
         <a href="https://www.google.com/maps?ll=29.917474,78.103448&z=14&t=m&hl=en&gl=IN&mapclient=embed&cid=1972800704440552532">{" "}
         <address className="text-white text-center w-full hover:text-blue-600">
-          Sabji Mandi road, near Jatwara Bridge, Sitapur, Jwlapur, Haridwar,
+       next to Shiv Dairy and confectionery,  Sabji Mandi road, near Jatwara Bridge, Sitapur, Jwlapur, Haridwar,
           Uttrakhand-249407{" "}
         </address></a>
       </div>
