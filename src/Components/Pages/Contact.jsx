@@ -41,14 +41,14 @@ const Contact = () => {
             name="Mr. Sageer Ansari"
             phone="9319039625"
             whatsapp="9319039625"
-            gmail="Aazamansari9999@gmail.com"
+            gmail="---"
           />
           <Card
             image={akarm}
             name="Mr. Akram Ansari"
             phone="9837439465"
             whatsapp="9837439465"
-            gmail="aansari@gmail"
+            gmail="akramansari9837439465@gmail.com"
           />
           <Card
             image={azam}
