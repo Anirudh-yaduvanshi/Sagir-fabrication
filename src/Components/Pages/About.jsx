@@ -145,7 +145,7 @@ const About = () => {
 
         <div className="md:h-screen w-3/4 gap-6 grid md:grid-cols-2">
           <div className="backdrop-blur-2xl bg-gray-300 opacity-75 md:h-3/4 w-full rounded-lg gap-4 likha1 flex justify-center flex-col items-center">
-            <p className="text-3xl font-bold">Who We Are</p>
+            <p className="text-3xl font-bold">Who We Are?</p>
 
             <p className="text-xl font-medium text-center w-11/12">
               <b>Sagir Fabrication</b> has been at the forefront of Haridwar's
@@ -194,11 +194,11 @@ const About = () => {
             <div className="bg-gray-300 rounded-lg items-center flex justify-center col-span-6 md:col-span-8 md:h-full h-4/5">
               <div className="flex flex-col gap-4 company items-center h-11/12 w-11/12">
                 <p className="md:text-4xl text-2xl w-full text-center font-bold sagir underline text-shadow-lg">
-                  Mr. Sagir Ansari and Sons
+                  Mr. Sageer Ansari and Sons
                 </p>
                 <p className="md:text-2xl md:font-medium overflow-y-hidden text-left text-wrap sons w-full">
                   <br />
-                  <b>Sagir Fabrication</b> is a family-owned business founded by{" "}
+                  <b>Sageer Fabrication</b> is a family-owned business founded by{" "}
                   <b>Mr. Sagir Ansari</b>. With a legacy of craftsmanship, the
                   company is now run by his sons Mr. Akram Ansari and Mr. Azam
                   Ansari, who continue to uphold the values of quality and
