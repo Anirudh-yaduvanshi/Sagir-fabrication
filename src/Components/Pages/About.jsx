@@ -3,6 +3,7 @@ import Footer from "../Header-Footer/Footer";
 import Navbar from "../Header-Footer/Navbar";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import "../../App.css"
 import family from "/Family.jpg"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
