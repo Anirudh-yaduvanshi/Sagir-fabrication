@@ -23,7 +23,7 @@ const Home = () => {
         <div className=" w-full h-3/4   flex justify-center items-center">
           <div className="w-3/4 text-center flex gap-3 flex-col  hover:text-white mx-auto">
             <p className="md:text-8xl heading text-3xl naam font-semibold">
-              SAGEER FABRICATION
+              SAGEER FABRICATORS
             </p>
             <p className="md:text-2xl heading text-lg dialog md:font-bold">
               From Concept to Creation
