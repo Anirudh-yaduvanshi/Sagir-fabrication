@@ -1,16 +1,10 @@
-.winky-rough-winky {
-    font-family: "Winky Rough", sans-serif;
-    font-optical-sizing: auto;
-    
-    font-style: normal;
-}
 
 * {
     margin: 0;
     padding: 0;
     outline: none;
     scroll-behavior: smooth;
-font-family: ".winky-rough-winky" , sans-serif;
+font-family: "winky-rough" , sans-serif;
     -webkit-tap-highlight-color: transparent;
 }
 
