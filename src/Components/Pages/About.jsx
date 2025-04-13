@@ -189,7 +189,7 @@ const About = () => {
         <div className="h-5/6 w-full flex justify-center">
           <div className="grid md:grid-cols-12 gap-4 w-4/5 md:h-11/12 h-full">
             <div className="bg-white rounded-lg image col-span-6 md:col-span-4 overflow-hidden bg-center family h-full bg-gray-400">
-              <img src={family} alt="ansari family" className="bg-cover w-11/12" />
+              <img src={family} alt="ansari family" className="bg-cover w-full" />
             </div>
 
             <div className="bg-gray-300 rounded-lg items-center flex justify-center col-span-6 md:col-span-8 md:h-full h-4/5">
