@@ -199,7 +199,7 @@ const About = () => {
                 </p>
                 <p className="md:text-2xl md:font-medium overflow-y-hidden text-left text-wrap sons w-full">
                   <br />
-                  <b>Sageer Fabrication</b> is a family-owned business founded
+                  <b>Sageer Fabricators</b> is a family-owned business founded
                   by <b>Mr. Sageer Ansari</b>. With a legacy of craftsmanship,
                   the company is now run by his sons{" "}
                   <b> Mr. Akram Ansari and Mr. Azam Ansari</b>, who continue to
