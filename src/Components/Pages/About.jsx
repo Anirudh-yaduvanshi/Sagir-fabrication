@@ -183,7 +183,7 @@ const About = () => {
 
       <div className="w-full owner bg-gray-800">
         <div className="w-full text-5xl h-1/6  ownership text-white font-semibold flex justify-center items-center">
-          Ownership 
+          Ownership
         </div>
         <div className="h-5/6 w-full flex justify-center">
           <div className="grid md:grid-cols-12 gap-4 w-4/5 md:h-11/12 h-full">
@@ -198,11 +198,11 @@ const About = () => {
                 </p>
                 <p className="md:text-2xl md:font-medium overflow-y-hidden text-left text-wrap sons w-full">
                   <br />
-                  <b>Sageer Fabrication</b> is a family-owned business founded by{" "}
-                  <b>Mr. Sagir Ansari</b>. With a legacy of craftsmanship, the
-                  company is now run by his sons Mr. Akram Ansari and Mr. Azam
-                  Ansari, who continue to uphold the values of quality and
-                  integrity.
+                  <b>Sageer Fabrication</b> is a family-owned business founded
+                  by <b>Mr. Sagir Ansari</b>. With a legacy of craftsmanship,
+                  the company is now run by his sons{" "}
+                  <b> Mr. Akram Ansari and Mr. Azam Ansari</b>, who continue to
+                  uphold the values of quality and integrity.
                   <br />
                   <br />
                   Our family-oriented approach ensures that every project is
@@ -224,19 +224,21 @@ const About = () => {
         <div className="w-full capitalize md:text-5xl text-3xl h-1/6  you text-white font-semibold flex justify-center items-center">
           you can found us at
         </div>{" "}
-        <iframe className="map w-3/4 h-3/5"
+        <iframe
+          className="map w-3/4 h-3/5"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d216.13545107560535!2d78.10332896104345!3d29.917087821036557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390949b9b8afc053%3A0x1b60cbc9d0d1cc54!2sShiv%20dairy%20and%20confectionery!5e0!3m2!1sen!2sin!4v1744284554702!5m2!1sen!2sin"
-       
           style={{ borde: 2 }}
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-        <a href="https://www.google.com/maps?ll=29.917474,78.103448&z=14&t=m&hl=en&gl=IN&mapclient=embed&cid=1972800704440552532">{" "}
-        <address className="text-white text-center w-full hover:text-blue-600 px-2">
-       next to Shiv Dairy and confectionery,  Sabji Mandi road, near Jatwara Bridge, Sitapur, Jwlapur, Haridwar,
-          Uttrakhand-249407{" "}
-        </address></a>
+        <a href="https://www.google.com/maps?ll=29.917474,78.103448&z=14&t=m&hl=en&gl=IN&mapclient=embed&cid=1972800704440552532">
+          {" "}
+          <address className="text-white text-center w-full hover:text-blue-600 px-2">
+            next to Shiv Dairy and confectionery, Sabji Mandi road, near Jatwara
+            Bridge, Sitapur, Jwlapur, Haridwar, Uttrakhand-249407{" "}
+          </address>
+        </a>
       </div>
 
       <Footer />

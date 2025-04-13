@@ -31,7 +31,7 @@ const Card = ({ image, name, phone, whatsapp, gmail }) => {
           {whatsapp}
           </a>
         </div>
-        <div className=" text-sm hover:scale-110 hover:text-red-500">
+        <div className=" text-sm text-wrap hover:scale-110 hover:text-red-500">
           <a href={`mailto:${gmail}`}>
             <i class="ri-mail-line"></i>
             {"  "}
