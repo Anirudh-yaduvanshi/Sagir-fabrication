@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import gsap from "gsap";
-import sparkimg from "./../Assets/spark.png"; // Adjust the path to your spark image
+import sparkimg from "./../Assets/family/spark.png"; // Adjust the path to your spark image
 const Cursor = () => {
  
  
