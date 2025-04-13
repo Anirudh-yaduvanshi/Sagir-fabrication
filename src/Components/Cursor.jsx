@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import gsap from "gsap";
-import sparkimg from "../../Assets/spark.png";
+import sparkimg from "../Assets/spark.png";
 const Cursor = () => {
   useEffect(() => {
     const body = document.querySelector("body");
