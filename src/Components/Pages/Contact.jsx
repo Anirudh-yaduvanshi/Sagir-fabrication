@@ -4,8 +4,8 @@ import Navbar from "../Header-Footer/Navbar";
 import Card from "../Card";
 
 import akarm from "../../Assets/akram.jpg";
-import azam from "../../Assets/azam.png";
-import sagir from "../../Assets/sagir.png";
+import azam from "../../Assets/azam.jpg";
+import sagir from "../../Assets/sagir.jpg";
 
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
