@@ -1,16 +1,31 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+ 
+ .para {
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto .heading {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
 
 * {
     margin: 0;
     padding: 0;
     outline: none;
     scroll-behavior: smooth;
-font-family: "winky-rough" , sans-serif;
     -webkit-tap-highlight-color: transparent;
 }
 
 body {
 
-    font-family: 'winky-smooth', sans-serif;
     background-color: #f0f0f0;
     color: #333;
     box-sizing: border-box;

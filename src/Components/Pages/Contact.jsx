@@ -29,7 +29,7 @@ const Contact = () => {
       <Navbar />
 
       <div className="w-full about h-fit  text-5xl gap-4 text-white font-semibold flex-col bg-gray-900 flex justify-center items-center">
-        <span className="contactus">Contact Us</span>
+        <span className="contactus heading">Contact Us</span>
 
         <div className="flex flex-col bg-gray-900 items-center w-screen gap-4">
           <Card
