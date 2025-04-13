@@ -26,6 +26,7 @@ const galleryData = [
   { src: "../../gallery/25.jpg", alt: "25" },
   { src: "../../gallery/26.jpeg", alt: "26" },
   { src: "../../gallery/27.jpeg", alt: "27" },
+  { src: "../../gallery/28.jpg", alt: "28" },
 ];
 
 export default galleryData;
