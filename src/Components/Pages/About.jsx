@@ -149,7 +149,7 @@ const About = () => {
             <p className="text-3xl heading font-bold">Who We Are?</p>
 
             <p className="text-xl font-medium text-center w-11/12">
-              <b>Sagir Fabrication</b> has been at the forefront of Haridwar's
+              <b>Sageer Fabrication</b> has been at the forefront of Haridwar's
               fabrication industry for more than <b>30 years</b>. With a team of
               skilled artisans and cutting-edge technology, we take pride in
               <b>
