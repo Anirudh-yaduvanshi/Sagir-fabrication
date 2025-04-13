@@ -2,7 +2,11 @@ import React from "react";
 import Footer from "../Header-Footer/Footer";
 import Navbar from "../Header-Footer/Navbar";
 import Card from "../Card";
-import profile from "/profile.png";
+
+import akarm from "../../Assets/akarm.jpg";
+import azam from "../../Assets/azam.png";
+import sagir from "../../Assets/sagir.png";
+
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -33,21 +37,21 @@ const Contact = () => {
 
         <div className="flex flex-col bg-gray-900 items-center w-screen gap-4">
           <Card
-            image={profile}
+            image={sagir}
             name="Mr. Sageer Ansari"
             phone="9319039625"
             whatsapp="9319039625"
             gmail="Aazamansari9999@gmail.com"
           />
           <Card
-            image={profile}
+            image={akarm}
             name="Mr. Akram Ansari"
             phone="9837439465"
             whatsapp="9837439465"
             gmail="aansari@gmail"
           />
           <Card
-            image={profile}
+            image={azam}
             name="Mr. Azam Ansari"
             phone="9760001118"
             whatsapp="9760001118"
