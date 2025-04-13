@@ -143,14 +143,14 @@ const Navbar = () => {
           ></i>
           <Link
             onClick={handlebnd}
-            className=" mx-auto a no-underline font-semibold flex justify-center items-center  bg-gray-400 mb-1 active:bg-gray-600 "
+            className=" mx-auto a rounded-lg no-underline font-semibold flex justify-center items-center  bg-gray-400 mb-1 active:bg-gray-600 "
             to="/"
           >
             Home{" "}
           </Link>
           <Link
             onClick={handlebnd}
-            className=" mx-auto a no-underline font-semibold flex justify-center items-center  bg-gray-400 mb-1 active:bg-gray-600 "
+            className=" mx-auto a rounded-lg no-underline font-semibold flex justify-center items-center  bg-gray-400 mb-1 active:bg-gray-600 "
             to="/about"
           >
             About Us
@@ -159,7 +159,7 @@ const Navbar = () => {
 
           <Link
             onClick={handlebnd}
-            className=" mx-auto a no-underline font-semibold flex justify-center items-center  bg-gray-400 mb-1 active:bg-gray-600 "
+            className=" mx-auto a rounded-lg no-underline font-semibold flex justify-center items-center  bg-gray-400 mb-1 active:bg-gray-600 "
             to="/gallery"
           >
             Our Gallery
@@ -167,7 +167,7 @@ const Navbar = () => {
 
           <Link
             onClick={handlebnd}
-            className=" mx-auto a no-underline font-semibold flex justify-center items-center  bg-gray-400 mb-1 active:bg-gray-600 "
+            className=" mx-auto  a rounded-lg no-underline font-semibold flex justify-center items-center  bg-gray-400 mb-1 active:bg-gray-600 "
             to="/contact"
           >
             Contact Us
