@@ -29,33 +29,40 @@ const Contact = () => {
     
   })
   return (
-    <div className="  contact overflow-x-hidden md:w-screen w-full bg-gray-900">
+    <div className="  contact overflow-x-hidden min-h-screen md:w-screen w-full bg-gray-900">
       <Navbar />
 
       <div className="w-full about h-fit  text-5xl gap-4 text-white font-semibold flex-col bg-gray-900 flex justify-center items-center">
         <span className="contactus heading">Contact Us</span>
 
-        <div className="flex flex-col bg-gray-900 items-center w-full md:w-screen gap-4">
+        <div className="flex flex-col   items-center w-full md:w-screen h-full  gap-4">
           <Card
             image={sagir}
             name="Mr. Sageer Ansari"
             phone="9319039625"
             whatsapp="9319039625"
             gmail="---"
-          />
+            designation="OWNER"
+            id="./gallery/#shop"
+            />
           <Card
             image={azam}
             name="Mr. Azam Ansari"
             phone="9760001118"
             whatsapp="9760001118"
             gmail="aazamansari9999@gmail.com"
-          />
+            designation="TIN SHED"
+            id="./gallery/#shed"
+            
+            />
           <Card
             image={akarm}
             name="Mr. Akram Ansari"
             phone="9837439465"
             whatsapp="9837439465"
             gmail="akramansari9837439465@gmail.com"
+            designation="IRON FABRICATION"
+            id="./gallery/#IRON"
           />
         </div>
         <Footer />

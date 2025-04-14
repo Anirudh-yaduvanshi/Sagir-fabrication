@@ -9,12 +9,14 @@ const NotFound = () => {
     <div className=" min-h-screen   ">
       <div className="flex justify-center items-center flex-col gap-10  h-screen text text-wrap text-white bg-gray-900 text-center">
         yo page ni hai kuvh bhi dhoond re ho! jo home pe dikh ra voi sufficient
-        hai.... ku faltu me matha marra...
+        hai.... ku faltu me matha mar rhe ho...
         <Link
-          className="text-white bg-black rounded-lg hover:bg-gray-600 font-semibold px-4 py-2  hover:scale-110"
+          className="  w-fit hover:bg-gray-600 hover:scale-110 bg-white rounded-lg"
           to="/"
         >
-         Go Back to Home
+          <span className=" hover:bg-gray-600  px-3 hover:text-white  text-black font-semibold bg-white rounded-lg ">
+            Go Back to Home...
+          </span>
         </Link>
       </div>
 
