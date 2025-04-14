@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Card = ({ image, name, phone, whatsapp, gmail, designation, id }) => {
 
@@ -13,20 +14,20 @@ const Card = ({ image, name, phone, whatsapp, gmail, designation, id }) => {
       </div>
       <div className="md:h-full w-full h-52  likha2 flex  justify-center flex-col md:items-start items-center gap-4 ">
         <div className=" text-sm hover:scale-110 ">
-          <i class="ri-user-3-line"></i> {"     "}
+          <i className="ri-user-3-line"></i> {"     "}
           {name}
         </div>
         <div className=" text-sm hover:scale-110 hover:text-green-600">
           {"  "}
           <a href={`https://api.whatsapp.com/send?phone=91${whatsapp}`}>
-            <i class="ri-whatsapp-line"></i>
+            <i className="ri-whatsapp-line"></i>
             {"  "}
           </a>
           <a href={`tel:+91${phone}`}>{phone}</a>
         </div>
         <div className=" text-sm text-wrap hover:scale-110 hover:text-red-500">
           <a href={`mailto:${gmail}`} className=" text-wrap">
-            <i class="ri-mail-line"></i>
+            <i className="ri-mail-line"></i>
             {"  "}
             {gmail}
           </a>
@@ -35,10 +36,10 @@ const Card = ({ image, name, phone, whatsapp, gmail, designation, id }) => {
         
           className=" text-sm text-wrap hover:scale-110 hover:text-blue-500"
         >
-          <a href={id} className=" text-wrap">
-            <i class="ri-medal-line"></i> {"  "}
+          <Link to={id} className=" text-wrap">
+            <i className="ri-medal-line"></i> {"  "}
             {designation}
-          </a>
+          </Link>
         </div>
       </div>
     </div>

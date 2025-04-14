@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from "../Header-Footer/Footer";
 import Navbar from "../Header-Footer/Navbar";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -6,6 +6,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import {shop ,IRON ,TIN} from '../Gallerydata';
 import { useGSAP } from '@gsap/react';
 import gsap from "gsap"
+import { useLocation } from 'react-router';
 const Gallery = () => {
   useGSAP(() => {
     gsap.from(".gallery , .grid", {
@@ -20,7 +21,18 @@ const Gallery = () => {
       opacity: 0,
     })
   })
- 
+
+  let location = useLocation();
+   useEffect(() => {
+     if (location.hash) {
+       const element = document.querySelector(location.hash); // Get the element by its ID
+       if (element) {
+         element.scrollIntoView({ behavior:"auto", block:"start" }); // Smoothly scroll to the element
+       }
+     }
+   }, [location.hash]);
+
+  console.log(location);
   return (
     <>
       <div className="min-h-screen w-screen bg-gray-900">
@@ -29,7 +41,7 @@ const Gallery = () => {
           Gallery
         </div>
 
-        <div className='padding'> 
+        <div className='md:padding'> 
 
         <div className="header margin border-b  text-3xl  text-white  " id='shed'>TIN SHED</div>
 
@@ -40,13 +52,12 @@ const Gallery = () => {
                 src={TIN.src}
                 alt={TIN.alt}
                 className="photogallery border-gray-600 border-2 rounded-lg bg-center bg-cover  "
-                effect="blur" // Adds the blur effect while loading
-              />
+                effect="blur"               />
             </a>
           ))}
         </div>
             </div>
-        <div className='padding'> 
+        <div className='md:padding'> 
 
         <div className="header margin border-b  text-3xl  text-white  " id='IRON'>IRON FABRICATION</div>
 
@@ -57,7 +68,7 @@ const Gallery = () => {
                 src={TIN.src}
                 alt={TIN.alt}
                 className="photogallery border-gray-600 border-2 rounded-lg bg-center bg-cover  "
-                effect="blur" // Adds the blur effect while loading
+                effect="blur" 
               />
             </a>
           ))}
@@ -65,7 +76,7 @@ const Gallery = () => {
         </div>
         
         
-        <div className='padding'> 
+        <div className='md:padding'> 
 
         <div className="header margin border-b  text-3xl  text-white  " id='shop'>SHOP</div>
 

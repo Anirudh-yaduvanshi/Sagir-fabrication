@@ -43,7 +43,7 @@ const Contact = () => {
             whatsapp="9319039625"
             gmail="---"
             designation="OWNER"
-            id="./gallery/#shop"
+            id="../gallery"
             />
           <Card
             image={azam}
@@ -52,7 +52,7 @@ const Contact = () => {
             whatsapp="9760001118"
             gmail="aazamansari9999@gmail.com"
             designation="TIN SHED"
-            id="./gallery/#shed"
+            id="../gallery/#shed"
             
             />
           <Card
@@ -62,7 +62,7 @@ const Contact = () => {
             whatsapp="9837439465"
             gmail="akramansari9837439465@gmail.com"
             designation="IRON FABRICATION"
-            id="./gallery/#IRON"
+            id="../gallery/#IRON"
           />
         </div>
         <Footer />
