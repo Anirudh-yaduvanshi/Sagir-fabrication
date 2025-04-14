@@ -3,7 +3,7 @@ import React from "react";
 const Card = ({ image, name, phone, whatsapp, gmail }) => {
   return (
     <div className=" card  w-3/4  md:h-64  grid grid-cols-2 md:gap-4">
-      <div className="md:h-full w-11/12 h-52    flex  justify-center flex-col items-center gap-4  ">
+      <div className="md:h-full w-11/12 h-52    flex  justify-center flex-col items-center  ">
         <img
           src={image}
           className="bg-center bg-cover hover:scale-105  md:h-56   rounded-full"
