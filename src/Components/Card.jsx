@@ -1,15 +1,17 @@
 import React from "react";
 import { Link } from "react-router";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 const Card = ({ image, name, phone, whatsapp, gmail, designation, id }) => {
 
   return (
     <div className=" card  w-4/5 margin md:h-64  grid md:grid-cols-2 md:gap-4">
       <div className="h-full  flex  justify-center  items-center  ">
-        <img
+        <LazyLoadImage
           src={image}
-          className="bg-center bg-cover hover:scale-105  md:h-56   rounded-full"
           alt="photo"
+          effect="blur"
+          className="bg-center bg-cover hover:scale-105  md:h-56   rounded-full"
         />
       </div>
       <div className="md:h-full w-full h-52  likha2 flex  justify-center flex-col md:items-start items-center gap-4 ">
@@ -32,10 +34,7 @@ const Card = ({ image, name, phone, whatsapp, gmail, designation, id }) => {
             {gmail}
           </a>
         </div>
-        <div
-        
-          className=" text-sm text-wrap hover:scale-110 hover:text-blue-500"
-        >
+        <div className=" text-sm text-wrap hover:scale-110 hover:text-blue-500">
           <Link to={id} className=" text-wrap">
             <i className="ri-medal-line"></i> {"  "}
             {designation}
