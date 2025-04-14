@@ -44,18 +44,18 @@ const Contact = () => {
             gmail="---"
           />
           <Card
-            image={akarm}
-            name="Mr. Akram Ansari"
-            phone="9837439465"
-            whatsapp="9837439465"
-            gmail="akramansari9837439465@gmail.com"
-          />
-          <Card
             image={azam}
             name="Mr. Azam Ansari"
             phone="9760001118"
             whatsapp="9760001118"
             gmail="aazamansari9999@gmail.com"
+          />
+          <Card
+            image={akarm}
+            name="Mr. Akram Ansari"
+            phone="9837439465"
+            whatsapp="9837439465"
+            gmail="akramansari9837439465@gmail.com"
           />
         </div>
         <Footer />
