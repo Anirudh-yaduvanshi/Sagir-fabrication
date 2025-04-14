@@ -396,6 +396,12 @@
   .w-screen {
     width: 100vw;
   }
+  .flex-1 {
+    flex: 1;
+  }
+  .flex-1\/2 {
+    flex: calc(1/2 * 100%);
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -413,6 +419,12 @@
   }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-nowrap {
+    flex-wrap: nowrap;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .items-center {
     align-items: center;

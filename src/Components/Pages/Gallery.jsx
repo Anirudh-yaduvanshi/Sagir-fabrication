@@ -41,7 +41,7 @@ const Gallery = () => {
           Gallery
         </div>
 
-        <div className='md:padding'> 
+        <div className=' padding'> 
 
         <div className="header margin border-b  text-3xl  text-white  " id='shed'>TIN SHED</div>
 
@@ -57,7 +57,7 @@ const Gallery = () => {
           ))}
         </div>
             </div>
-        <div className='md:padding'> 
+        <div className='padding'> 
 
         <div className="header margin border-b  text-3xl  text-white  " id='IRON'>IRON FABRICATION</div>
 
@@ -76,7 +76,7 @@ const Gallery = () => {
         </div>
         
         
-        <div className='md:padding'> 
+        <div className='padding'> 
 
         <div className="header margin border-b  text-3xl  text-white  " id='shop'>SHOP</div>
 
