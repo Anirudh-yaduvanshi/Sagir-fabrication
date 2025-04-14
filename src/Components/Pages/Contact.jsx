@@ -55,7 +55,7 @@ const Contact = () => {
             name="Mr. Azam Ansari"
             phone="9760001118"
             whatsapp="9760001118"
-            gmail="Aazamansari9999@gmail.com"
+            gmail="aazamansari9999@gmail.com"
           />
         </div>
         <Footer />

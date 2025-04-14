@@ -10,7 +10,7 @@ const Card = ({ image, name, phone, whatsapp, gmail }) => {
           alt="photo"
         />
       </div>
-      <div className="md:h-full w-11/12 h-52  likha2 flex  justify-center flex-col items-start gap-4 ">
+      <div className="md:h-full w-full h-52  likha2 flex  justify-center flex-col items-start gap-4 ">
         <div className=" text-sm hover:scale-110 ">
           <i class="ri-user-3-line"></i> {"     "}
           {name}
