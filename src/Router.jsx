@@ -4,6 +4,7 @@ import Home from "./Components/Pages/Home";
 import Contact from "./Components/Pages/Contact";
 import About from "./Components/Pages/About";
 import Gallery from "./Components/Pages/Gallery";
+import NotFound from "./Components/Pages/NotFound";
 
 const routes= createBrowserRouter([
     {
@@ -27,6 +28,10 @@ const routes= createBrowserRouter([
             {
                 path: "/gallery",
                 element: <Gallery/>,
+            },
+            {
+                path: "*",
+                element: <NotFound/>,
             },
 
             
