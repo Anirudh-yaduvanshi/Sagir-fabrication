@@ -29,7 +29,7 @@ const Contact = () => {
     
   })
   return (
-    <div className="  contact w-screen bg-gray-900">
+    <div className="  contact overflow-x-hidden w-screen bg-gray-900">
       <Navbar />
 
       <div className="w-full about h-fit  text-5xl gap-4 text-white font-semibold flex-col bg-gray-900 flex justify-center items-center">
