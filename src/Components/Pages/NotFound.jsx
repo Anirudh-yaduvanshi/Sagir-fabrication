@@ -11,10 +11,10 @@ const NotFound = () => {
         yo page ni hai kuvh bhi dhoond re ho! jo home pe dikh ra voi sufficient
         hai.... ku faltu me matha marra...
         <Link
-          className="text-white bg-black rounded-lg hover:bg-blue-600 no-underline font-semibold px-6 py-3  hover:scale-95"
+          className="text-white bg-black rounded-lg hover:bg-gray-600 font-semibold px-6 py-3  hover:scale-110"
           to="/"
         >
-          Home
+         Go Back to Home
         </Link>
       </div>
 
