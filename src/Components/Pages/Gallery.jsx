@@ -78,7 +78,7 @@ const Gallery = () => {
         
         <div className='padding'> 
 
-        <div className="header margin border-b  text-3xl  text-white  " id='shop'>SHOP</div>
+        <div className="header margin border-b  text-3xl  text-white  " id='shop'>OFFICE & WORKSHOP</div>
 
         <div className=" grid gap-2 items-center grid-cols-2 md:grid-cols-3 w-full">
           {shop.map((TIN, idx) => (
