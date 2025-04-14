@@ -22,17 +22,16 @@ const Card = ({ image, name, phone, whatsapp, gmail }) => {
             {phone}
           </a>
         </div>
-        <div className=" text-sm hover:scale-110 hover:text-green-300"> 
+        <div className=" text-sm hover:scale-110 hover:text-green-300">
           {" "}
           <a href={`https://api.whatsapp.com/send?phone=91${whatsapp}`}>
-
-          <i class="ri-whatsapp-line"></i>
-          {"  "}
-          {whatsapp}
+            <i class="ri-whatsapp-line"></i>
+            {"  "}
+            {whatsapp}
           </a>
         </div>
         <div className=" text-sm text-wrap hover:scale-110 hover:text-red-500">
-          <a href={`mailto:${gmail}`}>
+          <a href={`mailto:${gmail}`} className=" text-wrap">
             <i class="ri-mail-line"></i>
             {"  "}
             {gmail}
