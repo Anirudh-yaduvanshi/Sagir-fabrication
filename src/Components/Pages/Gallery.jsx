@@ -30,7 +30,7 @@ const Gallery = () => {
          element.scrollIntoView({ behavior: "instant" }); // Smoothly scroll to the element
          setTimeout(() => {
            element.scrollIntoView({ behavior: "smooth", block: "start" }); // Smoothly scroll to the element
-         }, 1750);
+         }, 1900);
        }
      }
    }, [location.hash]);
