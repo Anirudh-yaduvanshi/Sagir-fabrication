@@ -27,16 +27,13 @@ const IRON = [
   { src: "/gallery/IRON/22.jpg", alt: "22" },
   { src: "/gallery/IRON/21.jpg", alt: "21" },
   { src: "/gallery/IRON/26.jpg", alt: "26" },
-
   { src: "/gallery/IRON/25.jpg", alt: "25" },
   { src: "/gallery/IRON/24.jpg", alt: "24" },
   { src: "/gallery/IRON/23.jpg", alt: "23" },
-
   { src: "/gallery/IRON/27.jpg", alt: "27" },
   { src: "/gallery/IRON/31.jpg", alt: "31" },
   { src: "/gallery/IRON/29.jpg", alt: "29" },
   { src: "/gallery/IRON/40.jpg", alt: "40" },
-
   { src: "/gallery/IRON/30.jpg", alt: "30" },
   { src: "/gallery/IRON/33.jpg", alt: "33" },
   { src: "/gallery/IRON/35.jpg", alt: "35" },
@@ -44,7 +41,6 @@ const IRON = [
   { src: "/gallery/IRON/38.jpg", alt: "38" },
   { src: "/gallery/IRON/41.jpg", alt: "41" },
   { src: "/gallery/IRON/39.jpg", alt: "39" },
-  
   { src: "/gallery/IRON/51.jpg", alt: "51" },
   { src: "/gallery/IRON/45.jpg", alt: "45" },
   { src: "/gallery/IRON/47.jpg", alt: "47" },
@@ -53,7 +49,6 @@ const IRON = [
   { src: "/gallery/IRON/43.jpg", alt: "43" },
   { src: "/gallery/IRON/50.jpg", alt: "50" },
   { src: "/gallery/IRON/53.jpg", alt: "53" },
-
   { src: "/gallery/IRON/52.jpg", alt: "52" },
   { src: "/gallery/IRON/42.jpg", alt: "42" },
   { src: "/gallery/IRON/54.jpg", alt: "54" },
@@ -62,6 +57,8 @@ const IRON = [
   { src: "/gallery/IRON/34.jpg", alt: "34" },
   { src: "/gallery/IRON/36.jpg", alt: "36" },
 ];
+
+
 const TIN = [
   { src: "/gallery/TIN/1.jpg", alt: "1" },
   { src: "/gallery/TIN/9.jpg", alt: "9" },
@@ -138,5 +135,6 @@ const TIN = [
   { src: "/gallery/TIN/52.jpg", alt: "52" },
   { src: "/gallery/TIN/22.jpg", alt: "22" },
 ];
+
 
 export { shop , IRON , TIN}
