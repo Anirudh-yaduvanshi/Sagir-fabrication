@@ -5,14 +5,14 @@
     margin: 0;
     padding: 0;
     outline: none;
-    font-family: Playfair;
+    font-family: Playfair,"serif";
     -webkit-tap-highlight-color: transparent;
 }
 
 body {
     
     background-color: #f0f0f0;
-    font-family: Playfair;
+    font-family: Playfair,"serif";
     color: #333;
     box-sizing: border-box;
 }
