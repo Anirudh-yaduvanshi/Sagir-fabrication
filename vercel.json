@@ -1,14 +1,7 @@
 
-{
-  "rewrites": [
-    {
-      "source":"/:path*",
-      "destination": "/"
-    },
-    {
-      "source":"/:path*/:path*",
-      "destination": "/"
-    }
 
+ {
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
