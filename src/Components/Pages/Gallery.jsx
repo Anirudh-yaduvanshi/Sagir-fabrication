@@ -27,10 +27,10 @@ const Gallery = () => {
      if (location.hash) {
        const element = document.querySelector(location.hash); // Get the element by its ID
        if (element) {
-         element.scrollIntoView({ behavior: "auto", block: "start" }); // Smoothly scroll to the element
+         element.scrollIntoView({ behavior: "instant" }); // Smoothly scroll to the element
          setTimeout(() => {
-           element.scrollIntoView({ behavior: "auto", block: "start" }); // Smoothly scroll to the element
-         }, 1000);
+           element.scrollIntoView({ behavior: "smooth", block: "start" }); // Smoothly scroll to the element
+         }, 1500);
        }
      }
    }, [location.hash]);

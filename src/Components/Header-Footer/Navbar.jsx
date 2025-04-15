@@ -112,17 +112,17 @@ const Navbar = () => {
               <li>
                 <NavLink
                   className="text-white font-semibold no-underline"
-                  to="/gallery"
+                  to="/Contact"
                 >
-                  Our Gallery
+                  Contact Us
                 </NavLink>
               </li>
               <li>
                 <NavLink
                   className="text-white font-semibold no-underline"
-                  to="/Contact"
+                  to="/gallery"
                 >
-                  Contact Us
+                  Our Gallery
                 </NavLink>
               </li>
             </ul>
@@ -157,13 +157,6 @@ const Navbar = () => {
           </Link>
 
 
-          <Link
-            onClick={handlebnd}
-            className=" mx-auto a rounded-lg no-underline font-semibold flex justify-center items-center  bg-gray-400 mb-1 active:bg-gray-600 "
-            to="/gallery"
-          >
-            Our Gallery
-          </Link>
 
           <Link
             onClick={handlebnd}
@@ -171,6 +164,14 @@ const Navbar = () => {
             to="/contact"
           >
             Contact Us
+          </Link>
+
+          <Link
+            onClick={handlebnd}
+            className=" mx-auto a rounded-lg no-underline font-semibold flex justify-center items-center  bg-gray-400 mb-1 active:bg-gray-600 "
+            to="/gallery"
+          >
+            Our Gallery
           </Link>
         </div>
       </header>
